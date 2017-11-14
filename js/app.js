@@ -7,7 +7,7 @@
 *  Purpose        : frames   
 |***************************************/ 
 /***************************************\ 
-*				Variables
+*		Variables
 \***************************************/ 
 var windowW=document.body.clientWidth-100; 
 var windowH=screen.height - 400; 
@@ -38,7 +38,7 @@ document.body.appendChild(dd);
 var hero =  new Hero(windowW/2-15, 70, "<img src=\"assets/hero.png\">", "HERO");	
 	 
 /***************************************\ 
-*			Frame per sec
+*	Frame per sec
 \***************************************/ 
 function sec(){
 	//remove trash	  
@@ -282,13 +282,13 @@ function sec(){
 }
 	
 /***************************************\ 
-*			Set main function
+*	Set main function
 \***************************************/ 
 	
 setInterval(sec, 50);
 	
 /***************************************\ 
-*			Listener keys
+*	Listener keys
 \***************************************/ 	
 function runOnKeys(arg) {
 	var codes = arg;	
@@ -330,7 +330,7 @@ var argPress = [37,38,39,40];
 runOnKeys( argPress );
 
 /***************************************\ 
-*			Functions
+*	Functions
 \***************************************/
 function addMonsters(arg1, arg2){
 	arg1 = arg1;
