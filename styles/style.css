@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	overflow: hidden; 
+	background: #000000;   
+} 
+   
+#messageGame{
+	font-size:30px;
+	color: #86ada8; 	 
+	background: rgba(0,0,0,0.5);	
+	z-index:3000;	
+	margin: 0;
+	margin-left: 100px;
+	padding: 40px;	 
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #86ada8; 
+	width: 900px;
+	border-radius: 15px; /* Уголки */	 
+}
+   
+#fon{
+	z-index: 0;
+	position: absolute;   
+	background: url(assets/fon01.png) repeat #ffffff;  	 
+}
+	  
+#m2 {
+	position: absolute;
+	top: 5px;
+	margin-left: 300px;
+}
+   
+#m3 {
+	position: absolute;
+	top: 15px;
+	margin-left: 300px;
+}  
+   
+.mnstr {
+	z-index: 100;   
+    color:  #00e1c4;   
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7c6207;	
+    background: rgba(70,105,163,0.5);	
+    padding: 0px 10px 10px 10px; 	
+	overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,1); 
+    border-radius: 5px; /* Уголки */	
+}
+   
+.hero { 
+	z-index: 3300;   
+	color:  #c5bfab;   
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7c6207;	
+	background: rgba(216,230,233,0.5);
+	padding: 0px 10px 10px 10px;
+	z-index: 2000; 
+	box-shadow: 0 0 20px rgba(220,173,9,0.2); 
+	border-radius: 5px; /* Уголки */	
+}
+   
+.dot{
+	color: red; 
+	font-size:40px;
+	position: absolute;  
+	z-index: 3400;	  
+}
+
+.life{
+	color: #00e1c4; 
+}   
+   
+img {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a49a76; 
+	margin:0 0 3px 0;   	
+}
+   
+#messageGame img{
+	border-width: 0px;   
+}
+   
+  
